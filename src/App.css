@@ -1,0 +1,10 @@
+.testimonial-slider .slick-slide {
+  padding: 0px 10px;
+}
+
+.bg-footer {
+  background-image: url("https://s3-alpha-sig.figma.com/img/2902/7541/c7407c75a354ae10b5c15b9ed73449c6?Expires=1719187200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Ib4j18Tqb20GzJm5RiRzaxEOE00F-pSRtL47TOdAnIOeKKYkVDnmvVF7vaHMuhf5ww774Dqqsu-u5HoATOskhukeADGSIX4KrdGVAiGnpGcoSeKOFFAsqo77TEokOD7EWLs8L-8v9MEdDZyj~eRidv~0-Sf9p-UMaXhGuq0T0R3vLl8t0oGKcn0qi9utxjBgbdUjJ5GeuJn~Y87toimsmGdrNYaZmZu0Id~UrXxA1OTsxdnymAmRY5RR0MPCwMC77tTmSuoGdOLURmokuBC6vZpZFX26G6QeoZ4tdc8gNdZwkk5IKuFZD1zuZYv8XhLoUr1qyLy4MherBv4pONUWoA__");
+  background-size: cover; /* Ensures the image covers the entire div */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+}
