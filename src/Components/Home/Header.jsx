@@ -1,6 +1,6 @@
 import { FaCartArrowDown, FaSearch } from "react-icons/fa";
 import { Link } from "react-router-dom";
-
+import logo from "../../assets/Images/logocharansparsh.png";
 const Header = () => {
   return (
     <>
@@ -23,11 +23,7 @@ const Header = () => {
             </button>
           </div>
           <Link to="/">
-            <img
-              src="https://s3-alpha-sig.figma.com/img/2ddd/0392/e2b2a36005d0c24f6c30448e415b97ed?Expires=1719187200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Pv8rsM88BjuLwtB7EMbDFo~DvdrnfPWYbGW4-gYB2cygDbDKyXLTkuM40r5gCr6CtZsSxJpAOeGFQDqvBtpPTl1EiLaUMzEl3DrlCPQQhKyZPlOAI1w9i5rBBnSq8J8mc~z386atpzmDHkMlLiWFzD8WlBAbggKEvn3tPLGPRYM326uYMjz5mgWybgahlxS7h0vEmZR7ZU-BwKKCehJmJDSjuQrCZUBI1TV13ZZaKN38c3pWLrxoSY30EhJXuW0CFv5oqqOVlipw54BoPZ~oFeHqnMz6XGEqNmrnDRCCF9Dm6Xbip0W5jX06OCG9qeBSe67fDqxyoMHHuMYHWsYqBQ__"
-              alt="logo"
-              className="md:w-[170px] w-36"
-            />
+            <img src={logo} alt="logo" className="md:w-[170px] w-36" />
           </Link>
           <div className="space-x-6 md:absolute md:right-10 flex items-center max-md:ml-auto">
             <FaSearch />
@@ -81,7 +77,7 @@ const Header = () => {
 
             <ul className="lg:flex lg:justify-center lg:gap-x-10 max-lg:space-y-3 max-lg:fixed max-lg:bg-white max-lg:w-1/2 max-lg:min-w-[300px] max-lg:top-0 max-lg:left-0 max-lg:p-6 max-lg:h-full max-lg:shadow-md max-lg:overflow-auto z-50">
               <li className="mb-6 hidden max-lg:block">
-                <Link to="#">
+                <Link to="product">
                   <img
                     src="https://readymadeui.com/readymadeui.svg"
                     alt="logo"
@@ -91,7 +87,7 @@ const Header = () => {
               </li>
               <li className="max-lg:border-b max-lg:py-3">
                 <Link
-                  to="#"
+                  to="product"
                   className="hover:text-[#007bff] text-[#007bff] font-bold text-[15px] block"
                 >
                   Handloom
@@ -99,7 +95,7 @@ const Header = () => {
               </li>
               <li className="max-lg:border-b max-lg:py-3">
                 <Link
-                  to="#"
+                  to="product"
                   className="hover:text-[#007bff] text-gray-500 font-bold text-[15px] block"
                 >
                   Handicraft
@@ -107,7 +103,7 @@ const Header = () => {
               </li>
               <li className="max-lg:border-b max-lg:py-3">
                 <Link
-                  to="#"
+                  to="product"
                   className="hover:text-[#007bff] text-gray-500 font-bold text-[15px] block"
                 >
                   Eco-friendly
@@ -115,7 +111,7 @@ const Header = () => {
               </li>
               <li className="max-lg:border-b max-lg:py-3">
                 <Link
-                  to="#"
+                  to="product"
                   className="hover:text-[#007bff] text-gray-500 font-bold text-[15px] block"
                 >
                   ArtAnd Painting
@@ -123,7 +119,7 @@ const Header = () => {
               </li>
               <li className="max-lg:border-b max-lg:py-3">
                 <Link
-                  to="#"
+                  to="product"
                   className="hover:text-[#007bff] text-gray-500 font-bold text-[15px] block"
                 >
                   Customized Products
@@ -131,7 +127,7 @@ const Header = () => {
               </li>
               <li className="max-lg:border-b max-lg:py-3">
                 <Link
-                  to="#"
+                  to="product"
                   className="hover:text-[#007bff] text-gray-500 font-bold text-[15px] block"
                 >
                   Gift Items
@@ -139,7 +135,7 @@ const Header = () => {
               </li>
               <li className="max-lg:border-b max-lg:py-3">
                 <Link
-                  to="#"
+                  to="product"
                   className="hover:text-[#007bff] text-gray-500 font-bold text-[15px] block"
                 >
                   Traditional
@@ -147,7 +143,7 @@ const Header = () => {
               </li>
               <li className="max-lg:border-b max-lg:py-3">
                 <Link
-                  to="#"
+                  to="product"
                   className="hover:text-[#007bff] text-gray-500 font-bold text-[15px] block"
                 >
                   State Wise
@@ -155,7 +151,7 @@ const Header = () => {
               </li>
               <li className="max-lg:border-b max-lg:py-3">
                 <Link
-                  to="#"
+                  to="product"
                   className="hover:text-[#007bff] text-gray-500 font-bold text-[15px] block"
                 >
                   Aboutus
@@ -163,7 +159,7 @@ const Header = () => {
               </li>
               <li className="max-lg:border-b max-lg:py-3">
                 <Link
-                  to="#"
+                  to="product"
                   className="hover:text-[#007bff] text-gray-500 font-bold text-[15px] block"
                 >
                   ContactUs
@@ -171,10 +167,10 @@ const Header = () => {
               </li>
               <li className="max-lg:border-b max-lg:py-3">
                 <Link
-                  to="#"
+                  to="/temple"
                   className="hover:text-[#007bff] text-gray-500 font-bold text-[15px] block"
                 >
-                  More
+                  Temple
                 </Link>
               </li>
             </ul>

@@ -17,6 +17,7 @@ function Home() {
       <HomeColection />
       <HomesecondColection />
       <Crausal />
+
       <Secondbanner />
       <TrendingProduct />
       <NewArrival />

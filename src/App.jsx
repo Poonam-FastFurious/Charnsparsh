@@ -10,6 +10,8 @@ import CheckOut from "./Components/Pages/CheckOut";
 import Cart from "./Components/Pages/Cart";
 import Wishlist from "./Components/Pages/Wishlist";
 import Productlist from "./Components/Product/Productlist";
+import Templelist from "./Components/Temple/Templelist";
+import Templedetails from "./Components/Temple/Templedetails";
 function App() {
   return (
     <>
@@ -23,6 +25,8 @@ function App() {
           <Route path="/Cart" element={<Cart />} />
           <Route path="/wishlist" element={<Wishlist />} />
           <Route path="/product" element={<Productlist />} />
+          <Route path="/temple" element={<Templelist />} />
+          <Route path="/templedetais" element={<Templedetails />} />
         </Routes>
         <Footer />
       </BrowserRouter>

@@ -3,16 +3,17 @@ function Offer() {
     <div className="px-12 sm:w-[75%] md:w-[75%] w-[100%]  mx-auto  py-16">
       <div className="grid md:grid-cols-2 items-center gap-16">
         <div className="max-md:order-1 max-w-lg">
-          <h3 className="text-xl font-semibold mb-4">Optimized Performance</h3>
+          <h3 className="text-xl font-semibold mb-4">
+            Excited to work together on own team?
+          </h3>
           <p>
-            Unlock top-notch performance with our advanced optimization
-            techniques. We prioritize speed, efficiency, and reliability to
-            ensure a seamless experience, no matter the complexity of your
-            tasks.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+            itaque nemo, fuga corrupti magnam a molestias nulla optio aliquid
+            placeat, unde quaerat ratione neque.
           </p>
           <button
             type="button"
-            className="bg-blue-600 hover:bg-blue-700 text-white rounded-full px-5 py-2.5 mt-8 transition-all"
+            className="bg-[#FF9343] hover:bg-[#FF9343] text-white rounded-full px-5 py-2.5 mt-8 transition-all"
           >
             Learn More
           </button>

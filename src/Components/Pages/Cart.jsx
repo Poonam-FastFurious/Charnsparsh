@@ -1,5 +1,6 @@
 import { useState } from "react";
-
+import cartproduct from "../../assets/Images/CARTPRODUCT.png";
+import { Link } from "react-router-dom";
 function Cart() {
   const [quantities, setQuantities] = useState([2, 2]);
   const handleIncrement = (index) => {
@@ -68,14 +69,14 @@ function Cart() {
               <div className="col-span-2 flex items-center gap-6">
                 <div className="w-28 h-28 shrink-0">
                   <img
-                    src="https://s3-alpha-sig.figma.com/img/a189/7751/28278aaed9d26bad225907ce41667d48?Expires=1719187200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=nBW79fyO0Y3SJV85-TLU3hyyTLknm2kXrz5fMB-MTLOVc7pPhwfoiEaGpPKxViwL1iA7B2tUsTr1eYWfGONDriPxWDv9a3jfIlwFCikd9fJ0ev3G5AsFm8UKjP4qW9H8QFJmrZrigFuYSrYkLsy9atXO-pWAqsVni7Mslcgz89oj5oy-w3M3OaDzwhAg-9E34qHkfCBUp7-Bf5wLazOXOMkPTOaQG9oYHYnOjq8rKgR3VITo-u~-HA6qPBm-6TUieBSujY4Y6-sZbbt0X4l9nDtMAFxMuCP5eSik9Hou0LwpxRJVZDvuIGyT9I5ojW7W8xrtgtsSo8tQO3t~DTHrbA__"
+                    src={cartproduct}
                     className="w-full h-full object-contain"
                   />
                 </div>
 
                 <div>
                   <h3 className="text-base font-bold text-gray-800">
-                    Sun Glass
+                    printed backpack
                   </h3>
                   <h6 className="text-sm text-gray-500 mt-1">
                     Color: <span className="ml-2 font-semibold">Black</span>
@@ -145,14 +146,14 @@ function Cart() {
               <div className="col-span-2 flex items-center gap-6">
                 <div className="w-28 h-28 shrink-0">
                   <img
-                    src="https://s3-alpha-sig.figma.com/img/4313/c721/542f0bec35b27e290f9a3de88cbdb015?Expires=1719187200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cc6THFyYeL4OfBPoOaOVzXRzqFZhOOAApC2jT-1BMNhkKx1Tp3PWTQxVXdlYJc0~fT-HffhQm~B4pispW8Uka3gv2dTAs38iWylbFxnvPp24Kq0KqcSBaZK0yhy5-VtGvaqQgnbndwz1j3gx1CkbUzgOXm8Uw-0xYkzfkiik6-zQSOsciS8nOE~j1wgrqaeCGFJPIqy3YrCBoBF4~LTskzomXQcfDzk8S86HYWqLRVijUyTnNRVAkj00IQv9WTY-vInxQYOAWYZpzetBwlAemAE0X9DORw0TjGfd30z9fJYcFaSbQenInE2lYjBa4xt4d6iiXiZKmFV5bw2RIrqpYA__"
+                    src={cartproduct}
                     className="w-full h-full object-contain"
                   />
                 </div>
 
                 <div>
                   <h3 className="text-base font-bold text-gray-800">
-                    Echo Elegance
+                    TERICOTTA FLOWER POTS
                   </h3>
                   <h6 className="text-sm text-gray-500 mt-1">
                     Color:{" "}
@@ -221,14 +222,14 @@ function Cart() {
               <div className="col-span-2 flex items-center gap-6">
                 <div className="w-28 h-28 shrink-0">
                   <img
-                    src="https://s3-alpha-sig.figma.com/img/4313/c721/542f0bec35b27e290f9a3de88cbdb015?Expires=1719187200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cc6THFyYeL4OfBPoOaOVzXRzqFZhOOAApC2jT-1BMNhkKx1Tp3PWTQxVXdlYJc0~fT-HffhQm~B4pispW8Uka3gv2dTAs38iWylbFxnvPp24Kq0KqcSBaZK0yhy5-VtGvaqQgnbndwz1j3gx1CkbUzgOXm8Uw-0xYkzfkiik6-zQSOsciS8nOE~j1wgrqaeCGFJPIqy3YrCBoBF4~LTskzomXQcfDzk8S86HYWqLRVijUyTnNRVAkj00IQv9WTY-vInxQYOAWYZpzetBwlAemAE0X9DORw0TjGfd30z9fJYcFaSbQenInE2lYjBa4xt4d6iiXiZKmFV5bw2RIrqpYA__"
+                    src={cartproduct}
                     className="w-full h-full object-contain"
                   />
                 </div>
 
                 <div>
                   <h3 className="text-base font-bold text-gray-800">
-                    Echo Elegance
+                    TERICOTTA FLOWER POTS
                   </h3>
                   <h6 className="text-sm text-gray-500 mt-1">
                     Color:
@@ -315,7 +316,7 @@ function Cart() {
               <h3 className="text-base font-bold text-gray-800">
                 Apply promo code
               </h3>
-              <div className="flex border border-blue-600 overflow-hidden max-w-md rounded-lg mt-4">
+              <div className="flex border border-[#FF9343] overflow-hidden max-w-md rounded-lg mt-4">
                 <input
                   type="email"
                   placeholder="Promo code"
@@ -324,7 +325,7 @@ function Cart() {
 
                 <button
                   type="button"
-                  className="flex items-center justify-center bg-[#FA8232] hover:bg-primary px-6 py-3 font-semibold tracking-wide text-sm text-white outline-none"
+                  className="flex items-center justify-center bg-[#FA8232] hover:bg-[#FF9343] px-6 py-3 font-semibold tracking-wide text-sm text-white outline-none"
                 >
                   Apply
                 </button>
@@ -333,9 +334,9 @@ function Cart() {
 
             <button
               type="button"
-              className="mt-8 max-w-md text-sm px-6 py-3 w-full bg-[#FA8232] hover:bg-primary text-white font-semibold tracking-wide rounded-lg"
+              className="mt-8 max-w-md text-sm px-6 py-3 w-full bg-[#FA8232] hover:bg-[#FF9343] text-white font-semibold tracking-wide rounded-lg"
             >
-              Proceed to Checkout &rarr;
+              <Link to="/CheckOut"> Proceed to Checkout &rarr;</Link>
             </button>
           </div>
         </div>

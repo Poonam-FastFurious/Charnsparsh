@@ -8,7 +8,7 @@ function Footer() {
           <h2 className="lg:col-span-2 text-xl font-semibold text-black">
             <img
               className="h-20"
-              src="https://s3-alpha-sig.figma.com/img/2ddd/0392/e2b2a36005d0c24f6c30448e415b97ed?Expires=1719187200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Pv8rsM88BjuLwtB7EMbDFo~DvdrnfPWYbGW4-gYB2cygDbDKyXLTkuM40r5gCr6CtZsSxJpAOeGFQDqvBtpPTl1EiLaUMzEl3DrlCPQQhKyZPlOAI1w9i5rBBnSq8J8mc~z386atpzmDHkMlLiWFzD8WlBAbggKEvn3tPLGPRYM326uYMjz5mgWybgahlxS7h0vEmZR7ZU-BwKKCehJmJDSjuQrCZUBI1TV13ZZaKN38c3pWLrxoSY30EhJXuW0CFv5oqqOVlipw54BoPZ~oFeHqnMz6XGEqNmrnDRCCF9Dm6Xbip0W5jX06OCG9qeBSe67fDqxyoMHHuMYHWsYqBQ__"
+              src="https://s3-alpha-sig.figma.com/img/2ddd/0392/e2b2a36005d0c24f6c30448e415b97ed?Expires=1722211200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Ypq33Epbt8HGIuCC-zvu8YtjjHxJZvv98KrQfkGWjA1p3vmNO6uIu2z0FzrVOXJnkVYrBcdEhXTk-ZY9HQnv7mNNoBf94sv8Nz~obdg5RDRlvnjVTW5T6wOjwjjMCdCIPfpy8apTauwLMJ9IGfuY~AonMzX0aABS4KfsMF2LFZnIcFQ1DngekeK8Yp0qN~7O0YyH3WnfkCtyPal4dr4cGpxXYFMjEgJukWW62QC2sbgpc3hyf83qxId1NhAFsk3qPJjA6zBi93~QvNGToRB1xNqEZv3Y8Yg0H4~pDAlQMob1KDtUhVDKZJmGE2ft1YNsxSEmqWEjIG4MicUo2bs-8Q__"
               alt=""
             />
             <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit.

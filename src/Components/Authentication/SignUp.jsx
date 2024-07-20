@@ -1,18 +1,14 @@
 // import { faApple } from "@fortawesome/free-brands-svg-icons";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
-
+import logo from "../../assets/Images/logocharansparsh.png";
 function SignUp() {
   return (
     <>
       <div className="flex flex-col items-center justify-center  pt-12 bg-gray-100 pb-4">
         <div className="w-full max-w-lg bg-white shadow-lg rounded-lg p-8 relative">
           <div className="my-8 text-center items-center flex flex-col">
-            <img
-              src="https://s3-alpha-sig.figma.com/img/2ddd/0392/e2b2a36005d0c24f6c30448e415b97ed?Expires=1719187200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Pv8rsM88BjuLwtB7EMbDFo~DvdrnfPWYbGW4-gYB2cygDbDKyXLTkuM40r5gCr6CtZsSxJpAOeGFQDqvBtpPTl1EiLaUMzEl3DrlCPQQhKyZPlOAI1w9i5rBBnSq8J8mc~z386atpzmDHkMlLiWFzD8WlBAbggKEvn3tPLGPRYM326uYMjz5mgWybgahlxS7h0vEmZR7ZU-BwKKCehJmJDSjuQrCZUBI1TV13ZZaKN38c3pWLrxoSY30EhJXuW0CFv5oqqOVlipw54BoPZ~oFeHqnMz6XGEqNmrnDRCCF9Dm6Xbip0W5jX06OCG9qeBSe67fDqxyoMHHuMYHWsYqBQ__"
-              className="h-10"
-              alt=""
-            />
+            <img src={logo} className="h-10" alt="" />
             <p className="text-sm text-gray-500 mt-4">
               Create an account with us
             </p>

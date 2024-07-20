@@ -264,7 +264,7 @@ const CheckOut = () => {
 
                 <Link
                   href="#"
-                  className="flex w-full items-center justify-center rounded bg-[#FA8232] px-5 py-2.5 text-sm font-medium text-white hover:bg-primary focus:outline-none focus:ring-4  "
+                  className="flex w-full items-center justify-center rounded bg-[#FA8232] px-5 py-2.5 text-sm font-medium text-white hover:bg-[#FA8232] focus:outline-none focus:ring-4  "
                 >
                   Place Order
                 </Link>

@@ -1,3 +1,4 @@
+import productimage from "../../assets/Images/Customized.jpeg";
 function Wishlist() {
   return (
     <>
@@ -46,21 +47,13 @@ function Wishlist() {
           <div className="mt-10 lg:mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-10 lg:gap-y-0    ">
             <div className="flex flex-col border">
               <div className="relative">
-                <img
-                  className="hidden lg:block"
-                  src="https://s3-alpha-sig.figma.com/img/8e15/da05/8e8c805d766f39967535246d75042838?Expires=1719187200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=e8tZJCaNyqvEyGAEB-v53nFysANy~XF1zHx-Z3HAE6QHdktv-kNWaLrvqSOfO5UMTNZ06eFUyuxunEZ-L4ippFUP9-6kvhRQxs4yoMka7lr4D3wdqGb2LD5PQrDEW0QTVbwpa9TRZzAIvZAp6DZPX-5L1Z0kg4bi0PLlUvLf27SSpZXXKuOwWcsgf09kglW6eucc8clQ3CePZeT9PuQfaeUYW45m1E7phBdLUvlW33TnjGNddR6ZR17wF1f3iXQMGestz1G2NPR3YDcHRqeCG~zA7YBcg1kKuMEArzfNY6qhuaCUyyWssmbCeYyWLmhMtEh2N3rk16tH45XQpjA~Vg__"
-                  alt="bag"
-                />
+                <img className="hidden lg:block" src={productimage} alt="bag" />
                 <img
                   className="hidden sm:block lg:hidden"
-                  src="https://s3-alpha-sig.figma.com/img/8e15/da05/8e8c805d766f39967535246d75042838?Expires=1719187200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=e8tZJCaNyqvEyGAEB-v53nFysANy~XF1zHx-Z3HAE6QHdktv-kNWaLrvqSOfO5UMTNZ06eFUyuxunEZ-L4ippFUP9-6kvhRQxs4yoMka7lr4D3wdqGb2LD5PQrDEW0QTVbwpa9TRZzAIvZAp6DZPX-5L1Z0kg4bi0PLlUvLf27SSpZXXKuOwWcsgf09kglW6eucc8clQ3CePZeT9PuQfaeUYW45m1E7phBdLUvlW33TnjGNddR6ZR17wF1f3iXQMGestz1G2NPR3YDcHRqeCG~zA7YBcg1kKuMEArzfNY6qhuaCUyyWssmbCeYyWLmhMtEh2N3rk16tH45XQpjA~Vg__"
+                  src={productimage}
                   alt="bag"
                 />
-                <img
-                  className="sm:hidden"
-                  src="https://s3-alpha-sig.figma.com/img/8e15/da05/8e8c805d766f39967535246d75042838?Expires=1719187200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=e8tZJCaNyqvEyGAEB-v53nFysANy~XF1zHx-Z3HAE6QHdktv-kNWaLrvqSOfO5UMTNZ06eFUyuxunEZ-L4ippFUP9-6kvhRQxs4yoMka7lr4D3wdqGb2LD5PQrDEW0QTVbwpa9TRZzAIvZAp6DZPX-5L1Z0kg4bi0PLlUvLf27SSpZXXKuOwWcsgf09kglW6eucc8clQ3CePZeT9PuQfaeUYW45m1E7phBdLUvlW33TnjGNddR6ZR17wF1f3iXQMGestz1G2NPR3YDcHRqeCG~zA7YBcg1kKuMEArzfNY6qhuaCUyyWssmbCeYyWLmhMtEh2N3rk16tH45XQpjA~Vg__"
-                  alt="bag"
-                />
+                <img className="sm:hidden" src={productimage} alt="bag" />
                 <button
                   aria-label="close"
                   className="top-4 right-4 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 absolute p-1.5 bg-gray-600 text-white "
@@ -164,21 +157,13 @@ function Wishlist() {
             </div>
             <div className="flex flex-col border">
               <div className="relative">
-                <img
-                  className="hidden lg:block"
-                  src="https://s3-alpha-sig.figma.com/img/8e15/da05/8e8c805d766f39967535246d75042838?Expires=1719187200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=e8tZJCaNyqvEyGAEB-v53nFysANy~XF1zHx-Z3HAE6QHdktv-kNWaLrvqSOfO5UMTNZ06eFUyuxunEZ-L4ippFUP9-6kvhRQxs4yoMka7lr4D3wdqGb2LD5PQrDEW0QTVbwpa9TRZzAIvZAp6DZPX-5L1Z0kg4bi0PLlUvLf27SSpZXXKuOwWcsgf09kglW6eucc8clQ3CePZeT9PuQfaeUYW45m1E7phBdLUvlW33TnjGNddR6ZR17wF1f3iXQMGestz1G2NPR3YDcHRqeCG~zA7YBcg1kKuMEArzfNY6qhuaCUyyWssmbCeYyWLmhMtEh2N3rk16tH45XQpjA~Vg__"
-                  alt="bag"
-                />
+                <img className="hidden lg:block" src={productimage} alt="bag" />
                 <img
                   className="hidden sm:block lg:hidden"
-                  src="https://s3-alpha-sig.figma.com/img/8e15/da05/8e8c805d766f39967535246d75042838?Expires=1719187200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=e8tZJCaNyqvEyGAEB-v53nFysANy~XF1zHx-Z3HAE6QHdktv-kNWaLrvqSOfO5UMTNZ06eFUyuxunEZ-L4ippFUP9-6kvhRQxs4yoMka7lr4D3wdqGb2LD5PQrDEW0QTVbwpa9TRZzAIvZAp6DZPX-5L1Z0kg4bi0PLlUvLf27SSpZXXKuOwWcsgf09kglW6eucc8clQ3CePZeT9PuQfaeUYW45m1E7phBdLUvlW33TnjGNddR6ZR17wF1f3iXQMGestz1G2NPR3YDcHRqeCG~zA7YBcg1kKuMEArzfNY6qhuaCUyyWssmbCeYyWLmhMtEh2N3rk16tH45XQpjA~Vg__"
+                  src={productimage}
                   alt="bag"
                 />
-                <img
-                  className="sm:hidden"
-                  src="https://s3-alpha-sig.figma.com/img/8e15/da05/8e8c805d766f39967535246d75042838?Expires=1719187200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=e8tZJCaNyqvEyGAEB-v53nFysANy~XF1zHx-Z3HAE6QHdktv-kNWaLrvqSOfO5UMTNZ06eFUyuxunEZ-L4ippFUP9-6kvhRQxs4yoMka7lr4D3wdqGb2LD5PQrDEW0QTVbwpa9TRZzAIvZAp6DZPX-5L1Z0kg4bi0PLlUvLf27SSpZXXKuOwWcsgf09kglW6eucc8clQ3CePZeT9PuQfaeUYW45m1E7phBdLUvlW33TnjGNddR6ZR17wF1f3iXQMGestz1G2NPR3YDcHRqeCG~zA7YBcg1kKuMEArzfNY6qhuaCUyyWssmbCeYyWLmhMtEh2N3rk16tH45XQpjA~Vg__"
-                  alt="bag"
-                />
+                <img className="sm:hidden" src={productimage} alt="bag" />
                 <button
                   aria-label="close"
                   className="top-4 right-4 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 absolute p-1.5 bg-gray-800 text-white "
@@ -279,24 +264,16 @@ function Wishlist() {
                   </div>
                 </div>
               </div>
-            </div>{" "}
+            </div>
             <div className="flex flex-col border">
               <div className="relative">
-                <img
-                  className="hidden lg:block"
-                  src="https://s3-alpha-sig.figma.com/img/8e15/da05/8e8c805d766f39967535246d75042838?Expires=1719187200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=e8tZJCaNyqvEyGAEB-v53nFysANy~XF1zHx-Z3HAE6QHdktv-kNWaLrvqSOfO5UMTNZ06eFUyuxunEZ-L4ippFUP9-6kvhRQxs4yoMka7lr4D3wdqGb2LD5PQrDEW0QTVbwpa9TRZzAIvZAp6DZPX-5L1Z0kg4bi0PLlUvLf27SSpZXXKuOwWcsgf09kglW6eucc8clQ3CePZeT9PuQfaeUYW45m1E7phBdLUvlW33TnjGNddR6ZR17wF1f3iXQMGestz1G2NPR3YDcHRqeCG~zA7YBcg1kKuMEArzfNY6qhuaCUyyWssmbCeYyWLmhMtEh2N3rk16tH45XQpjA~Vg__"
-                  alt="bag"
-                />
+                <img className="hidden lg:block" src={productimage} alt="bag" />
                 <img
                   className="hidden sm:block lg:hidden"
-                  src="https://s3-alpha-sig.figma.com/img/8e15/da05/8e8c805d766f39967535246d75042838?Expires=1719187200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=e8tZJCaNyqvEyGAEB-v53nFysANy~XF1zHx-Z3HAE6QHdktv-kNWaLrvqSOfO5UMTNZ06eFUyuxunEZ-L4ippFUP9-6kvhRQxs4yoMka7lr4D3wdqGb2LD5PQrDEW0QTVbwpa9TRZzAIvZAp6DZPX-5L1Z0kg4bi0PLlUvLf27SSpZXXKuOwWcsgf09kglW6eucc8clQ3CePZeT9PuQfaeUYW45m1E7phBdLUvlW33TnjGNddR6ZR17wF1f3iXQMGestz1G2NPR3YDcHRqeCG~zA7YBcg1kKuMEArzfNY6qhuaCUyyWssmbCeYyWLmhMtEh2N3rk16tH45XQpjA~Vg__"
+                  src={productimage}
                   alt="bag"
                 />
-                <img
-                  className="sm:hidden"
-                  src="https://s3-alpha-sig.figma.com/img/8e15/da05/8e8c805d766f39967535246d75042838?Expires=1719187200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=e8tZJCaNyqvEyGAEB-v53nFysANy~XF1zHx-Z3HAE6QHdktv-kNWaLrvqSOfO5UMTNZ06eFUyuxunEZ-L4ippFUP9-6kvhRQxs4yoMka7lr4D3wdqGb2LD5PQrDEW0QTVbwpa9TRZzAIvZAp6DZPX-5L1Z0kg4bi0PLlUvLf27SSpZXXKuOwWcsgf09kglW6eucc8clQ3CePZeT9PuQfaeUYW45m1E7phBdLUvlW33TnjGNddR6ZR17wF1f3iXQMGestz1G2NPR3YDcHRqeCG~zA7YBcg1kKuMEArzfNY6qhuaCUyyWssmbCeYyWLmhMtEh2N3rk16tH45XQpjA~Vg__"
-                  alt="bag"
-                />
+                <img className="sm:hidden" src={productimage} alt="bag" />
                 <button
                   aria-label="close"
                   className="top-4 right-4 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 absolute p-1.5 bg-gray-800 dark:bg-white dark:text-gray-800 text-white hover:text-gray-400"
@@ -400,21 +377,13 @@ function Wishlist() {
             </div>
             <div className="flex flex-col border">
               <div className="relative">
-                <img
-                  className="hidden lg:block"
-                  src="https://s3-alpha-sig.figma.com/img/8e15/da05/8e8c805d766f39967535246d75042838?Expires=1719187200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=e8tZJCaNyqvEyGAEB-v53nFysANy~XF1zHx-Z3HAE6QHdktv-kNWaLrvqSOfO5UMTNZ06eFUyuxunEZ-L4ippFUP9-6kvhRQxs4yoMka7lr4D3wdqGb2LD5PQrDEW0QTVbwpa9TRZzAIvZAp6DZPX-5L1Z0kg4bi0PLlUvLf27SSpZXXKuOwWcsgf09kglW6eucc8clQ3CePZeT9PuQfaeUYW45m1E7phBdLUvlW33TnjGNddR6ZR17wF1f3iXQMGestz1G2NPR3YDcHRqeCG~zA7YBcg1kKuMEArzfNY6qhuaCUyyWssmbCeYyWLmhMtEh2N3rk16tH45XQpjA~Vg__"
-                  alt="bag"
-                />
+                <img className="hidden lg:block" src={productimage} alt="bag" />
                 <img
                   className="hidden sm:block lg:hidden"
-                  src="https://s3-alpha-sig.figma.com/img/8e15/da05/8e8c805d766f39967535246d75042838?Expires=1719187200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=e8tZJCaNyqvEyGAEB-v53nFysANy~XF1zHx-Z3HAE6QHdktv-kNWaLrvqSOfO5UMTNZ06eFUyuxunEZ-L4ippFUP9-6kvhRQxs4yoMka7lr4D3wdqGb2LD5PQrDEW0QTVbwpa9TRZzAIvZAp6DZPX-5L1Z0kg4bi0PLlUvLf27SSpZXXKuOwWcsgf09kglW6eucc8clQ3CePZeT9PuQfaeUYW45m1E7phBdLUvlW33TnjGNddR6ZR17wF1f3iXQMGestz1G2NPR3YDcHRqeCG~zA7YBcg1kKuMEArzfNY6qhuaCUyyWssmbCeYyWLmhMtEh2N3rk16tH45XQpjA~Vg__"
+                  src={productimage}
                   alt="bag"
                 />
-                <img
-                  className="sm:hidden"
-                  src="https://s3-alpha-sig.figma.com/img/8e15/da05/8e8c805d766f39967535246d75042838?Expires=1719187200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=e8tZJCaNyqvEyGAEB-v53nFysANy~XF1zHx-Z3HAE6QHdktv-kNWaLrvqSOfO5UMTNZ06eFUyuxunEZ-L4ippFUP9-6kvhRQxs4yoMka7lr4D3wdqGb2LD5PQrDEW0QTVbwpa9TRZzAIvZAp6DZPX-5L1Z0kg4bi0PLlUvLf27SSpZXXKuOwWcsgf09kglW6eucc8clQ3CePZeT9PuQfaeUYW45m1E7phBdLUvlW33TnjGNddR6ZR17wF1f3iXQMGestz1G2NPR3YDcHRqeCG~zA7YBcg1kKuMEArzfNY6qhuaCUyyWssmbCeYyWLmhMtEh2N3rk16tH45XQpjA~Vg__"
-                  alt="bag"
-                />
+                <img className="sm:hidden" src={productimage} alt="bag" />
                 <button
                   aria-label="close"
                   className="top-4 right-4 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 absolute p-1.5 bg-gray-800 dark:bg-white dark:text-gray-800 text-white hover:text-gray-400"
